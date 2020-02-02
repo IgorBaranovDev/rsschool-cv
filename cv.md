@@ -17,19 +17,20 @@
   ---
 
 ## Skills:
-  programming languages:
+
+  - programming languages:
 	  * HTML
     * CSS(LESS, SASS)
     * JS(ES5/ES6)
     * MySQL
      
-	frameworks:
+	- frameworks:
 		* React	
 		* node.js
     * pixiJS
     * AngularJS
     
-	other:
+	- other:
 		* git
     * Babel
     * Webpack
