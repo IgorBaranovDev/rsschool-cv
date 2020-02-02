@@ -9,31 +9,37 @@
   * telegram: @Baranov_Igor_dev
   * address: Belarus, Vitebsk region
 
+  ---
+
 ## Summary:
   *The goal is to become an experienced web development professional. Why? Because I always liked to learn something new and aspecualy connected with computer technologys.*
 
-## Skills:
-  * programming languages:
-	  - HTML
-    - CSS(LESS, SASS)
-    - JS(ES5/ES6)
-    - MySQL
-     
-	* frameworks:
-		- React	
-		- node.js
-    - pixiJS
-    - AngularJS
-    
-	* other:
-		- git
-    - Babel
-    - Webpack
-    - Adobe Photoshop
-    - Illustrator
-    - VScode
-## Code examples: 
+  ---
 
+## Skills:
+  programming languages:
+	  * HTML
+    * CSS(LESS, SASS)
+    * JS(ES5/ES6)
+    * MySQL
+     
+	frameworks:
+		* React	
+		* node.js
+    * pixiJS
+    * AngularJS
+    
+	other:
+		* git
+    * Babel
+    * Webpack
+    * Adobe Photoshop
+    * Illustrator
+    * VScode
+
+    ---
+
+## Code examples: 
   [Codewars - 6 kyu Backspaces in string](https://www.codewars.com/kata/5727bb0fe81185ae62000ae3/javascript)
 ``` JavaScript
 function cleanString(s) {
@@ -74,11 +80,15 @@ const isAnagram = (test, original) =>
   test.toLowerCase().split("").sort().join("") === original.toLowerCase().split("").sort().join("") ? true : false;
   ```
 
+  ---
+
 ## Education: 
 
  * MSUF ( 2004 - 2008 ) engineer
  * PSU ( 2016 - 2018 ) civil engineer
  * The Rolling Scopes School ( 2018 - 2019 ) front-end 2019-Q1
+
+ ---
 
 ## English:
   - A2
