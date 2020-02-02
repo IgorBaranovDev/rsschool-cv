@@ -1,2 +1,1 @@
-# rsschool-cv
-Task - Markdown &amp; Git
+https://igorbaranovdev.github.io/rsschool-cv/cv
