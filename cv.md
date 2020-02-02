@@ -11,3 +11,24 @@
 
 ## Summary:
   The goal is to become an experienced web development professional. Why? Because I always liked to learn something new and aspecualy connected with computer technologys.
+
+## Skills:
+  - programming languages:
+		- HTML
+    - CSS(LESS, SASS)
+    - JS(ES5/ES6)
+    - MySQL
+     
+	- frameworks:
+		- React	
+		- node.js
+    - pixiJS
+    - AngularJS
+    
+	- other:
+		- git
+    - Babel
+    - Webpack
+    - Adobe Photoshop
+    - Illustrator
+    - VScode
