@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV Igor Baranov</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <main class="main">
+    <section class="bio">
+      <h1>Igor Baranov</h1>
+      <div class="photo">
+        <img src="./img/igor.jpg" width="200" class="avatar" alt="avatar">
+      </div>
+    </section>
+    <section class="contact">
+      <h2>Contacts</h2>
+      <ul class="list-contact">
+        <li>
+          <p>phone:</p>
+          <a href="tel: +37529-598-92-91" title="+37529-598-92-91">
+            +37529-598-92-91
+          </a>
+        </li>
+        <li>
+          <p>email:</p>
+          <a href="mailto:baranovigorjsdev@gmail.com" title="baranovigorjsdev@gmail.com">
+            baranovigorjsdev@gmail.com
+          </a>
+        </li>
+        <li>
+          <p>telegram:</p>
+          <p>@Baranov_Igor_dev</p>
+        </li>
+        <li>
+          <p>address:</p>
+          <p>Belarus, Vitebsk region</p>
+        </li>
+      </ul>
+    </section>
+    <section class="summary">
+      <h2>Summary</h2>
+      <em><em></em>The goal is to become an experienced web development professional.
+        Why? Because I always liked to learn something new and aspecualy connected with computer technologys.</em></p>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="programming-languages">
+        <p>programming languages:</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS(LESS, SASS)</li>
+          <li>CSS(LESS, SASS)</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+      <div class="frameworks">
+        <p>frameworks:</p>
+        <ul>
+          <li>React</li>
+          <li>node.js</li>
+          <li>pixiJS</li>
+          <li>AngularJS</li>
+          <li>jQuery</li>
+        </ul>
+      </div>
+      <div class="other">
+        <p>other:</p>
+        <ul>
+          <li>git</li>
+          <li>babel</li>
+          <li>webpack</li>
+          <li>Adobe Photoshop</li>
+          <li> VScode</li>
+        </ul>
+      </div>
+
+    </section>
+    <section class="code-examples">
+      <h2>Code examples</h2>
+      <a href="https://www.codewars.com/kata/541c8630095125aba6000c00/javascript">Codewars - 6 kyu Sum of Digits /
+        Digital Root</a>
+      <pre class="codeJS">
+          <code>
+            function digital_root(n) {
+              let result = 0;
+             while (n > 0) {
+              result += n % 10;
+              n = Math.floor(n / 10);
+              if (n === 0 && result > 9) {
+                 n = result;
+                 result = 0;
+              }
+             }
+              return result;
+            }
+          </code>
+        </pre>
+
+    </section>
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>MSUF ( 2004 - 2008 ) engineer</li>
+        <li>PSU ( 2016 - 2018 ) civil engineer</li>
+        <li>The Rolling Scopes School ( 2018 - 2019 ) front-end 2019-Q1</li>
+      </ul>
+    </section>
+    <section class="english">
+      <h2>Language</h2>
+      <p>English - A2</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2019</p>
+  </footer>
+</body>
+
+</html>

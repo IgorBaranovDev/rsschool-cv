@@ -21,7 +21,7 @@
   - programming languages:
     * HTML
     * CSS(LESS, SASS)
-    * JS(ES5/ES6)
+    * CSS(LESS, SASS)
     * MySQL
      
   - frameworks:
