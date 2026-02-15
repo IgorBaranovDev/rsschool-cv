@@ -1,24 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+
+/* Layout */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .main {
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 40px 0;
 }
 
-.list-contact p {
-  display: inline;
+
+/* Header */
+
+.header {
+  background-color: #1f2933;
+  color: #ffffff;
+  padding: 30px 0;
 }
 
-.codeJS {
-  background: #e1ddd7;  
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.footer p {
-  margin: 10px;
-  text-align: center;
+.avatar {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* Sections */
+
+section {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #1f2933;
+  padding-bottom: 5px;
+}
+
+
+/* Contacts */
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts-list li {
+  margin-bottom: 10px;
+}
+
+.contacts-list a {
+  color: #1f2933;
+}
+
+
+/* Skills */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skills-grid h3 {
+  margin-top: 0;
+}
+
+
+/* Code */
+
+pre {
+  background-color: #1f2933;
+  color: #ffffff;
+  padding: 20px;
+  overflow-x: auto;
+  border-radius: 5px;
+}
+
+
+/* Projects */
+
+.projects-list {
+  list-style: square;
+  padding-left: 20px;
+}
+
+
+/* Footer */
+
+.footer {
+  background-color: #1f2933;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer img {
+  height: 40px;
+}
+
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav ul {
+    justify-content: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
 }
