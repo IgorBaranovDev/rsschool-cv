@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Ihar Baranau</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <div class="profile">
+        <img src="img/photo_2024-02-08_10-21-30-9999.jpg" alt="Ihar Baranau photo" class="avatar">
+        <h1>Ihar Baranau</h1>
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#summary">Summary</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#language">Language</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main class="main container">
+
+    <!-- Contacts -->
+    <section id="contacts">
+      <h2>Contacts</h2>
+
+      <ul class="contacts-list">
+        <li>
+          Phone:
+          <a href="tel:+48780783259">+48 780 783 259</a>
+        </li>
+
+        <li>
+          Email:
+          <a href="mailto:baranovigorjsdev@gmail.com">
+            baranovigorjsdev@gmail.com
+          </a>
+        </li>
+
+        <li>
+          Telegram:
+          <a href="https://t.me/@Ihar_Baranau">
+            @Ihar_Baranau
+          </a>
+        </li>
+
+        <li>
+          Location: Poland
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- Summary -->
+    <section id="summary">
+      <h2>Summary</h2>
+
+      <p>
+        <em>
+          Front-End Developer with strong experience in JavaScript and React.
+          My goal is to build high-quality web applications and continuously
+          improve my professional skills.
+        </em>
+      </p>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+
+        <div>
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>HTML</li>
+            <li>CSS (SASS, LESS)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Frameworks</h3>
+          <ul>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Node.js</li>
+            <li>PixiJS</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Tools</h3>
+          <ul>
+            <li>Git</li>
+            <li>Webpack</li>
+            <li>Vite</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Code Example -->
+    <section id="code">
+      <h2>Code Example</h2>
+
+      <p>
+        <a href="https://www.codewars.com/kata/541c8630095125aba6000c00/javascript">
+          Codewars — Digital Root
+        </a>
+      </p>
+
+      <pre>
+<code>
+function digitalRoot(n) {
+  let result = 0;
+
+  while (n > 0) {
+    result += n % 10;
+    n = Math.floor(n / 10);
+
+    if (n === 0 && result > 9) {
+      n = result;
+      result = 0;
+    }
+  }
+
+  return result;
+}
+</code>
+    </pre>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <ul class="projects-list">
+
+        <li>
+          CV Project —
+          <a href="https://github.com/IgorBaranovDev/rsschool-cv">
+            rsschool-cv
+          </a>
+        </li>
+
+        <li>
+          Todo App —
+          <a href="https://github.com/IgorBaranovDev/the-wild-oasis">
+            the-wild-oasis
+          </a>
+        </li>
+
+      </ul>
+    </section>
+
+
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+
+      <ul>
+        <li>MSUF — Engineer (2004–2008)</li>
+        <li>PSU — Civil Engineer (2016–2018)</li>
+        <li>Rolling Scopes School — Front-End (2019)</li>
+      </ul>
+    </section>
+
+
+    <!-- Language -->
+    <section id="language">
+      <h2>English</h2>
+
+      <p>English Level: B1</p>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="container footer-content">
+
+      <a href="https://github.com/IgorBaranovDev">
+        My GitHub
+      </a>
+
+      <span>© 2026</span>
+
+      <a href="https://rs.school/courses/short-track">
+        <img src="img/rss-logo.c19ce1b4.svg" alt="RS School Logo">
+      </a>
+
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
